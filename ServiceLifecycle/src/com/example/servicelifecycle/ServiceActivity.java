@@ -12,15 +12,15 @@ public class ServiceActivity extends Activity {
 	@Override
 	protected void onCreate (Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_service);
-		 /*TextView view = new TextView(this);      
+	//	setContentView(R.layout.activity_service);
+		 TextView view = new TextView(this);      
      view.setText("Service Test");
      Intent i = new Intent();
      i.setClassName( "com.example.servicelifecycle",
       "com.example.servicelifecycle.MyService" );
      //bindService( i, null, Context.BIND_AUTO_CREATE);
      this.startService(i);      
-     setContentView(view);*/
+     setContentView(view);
 		
 	}
 
